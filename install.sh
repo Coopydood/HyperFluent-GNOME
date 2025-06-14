@@ -3,32 +3,42 @@
 ## Coopydood's Fluent theme installer
 
 echo ───────────────────────────────────────────────── 2>&1 
-echo WELCOME TO THE HYPERFLUENT INSTALLER! 
-echo ───────────────────────────────────────────────── 2>&1 
-mkdir CPYD_FLUENT
-cd CPYD_FLUENT
-echo 2>&1 
-echo ───────────────────────────────────────────────── 2>&1 
-echo COPYING FILES...
+echo \ \ HyperFluent GNOME Theme Installer \ \ \ \ \ \ v1.0 
+echo \ \ by Coopydood
 echo ───────────────────────────────────────────────── 2>&1 
 echo 2>&1 
-cp -R ./src/sounds/modern-minimal-ui-sounds ~/.local/share/sounds/
-cd ./src/theme/
-./install.sh -c dark --tweaks blur round
-cd ../icons/
-./install.sh
-mv ~/.themes/Fluent-round-Dark ~/.themes/Fluent-Dark
-cp -R ~/.themes/Fluent-Dark ~/.themes/Fluent
-sudo cp -R ~/.themes/* /usr/share/themes/
-sudo cp -R ~/.local/share/icons/* /usr/share/icons/
-sudo cp -R ~/.local/share/sounds/* /usr/share/sounds/
+#echo ───────────────────────────────────────────────── 2>&1 
+echo \ \ ▶ DOWNLOADING ASSETS...
+#echo ───────────────────────────────────────────────── 2>&1 
 
+git submodule init > /dev/null 2>&1
+git submodule update > /dev/null 2>&1
+sleep 1
 echo 2>&1 
-echo ───────────────────────────────────────────────── 2>&1 
-echo APPLYING SETTINGS...
-echo ───────────────────────────────────────────────── 2>&1 
+#echo ───────────────────────────────────────────────── 2>&1 
+echo \ \ ▶ COPYING FILES...
+#echo ───────────────────────────────────────────────── 2>&1 
+
+mkdir ~/.local/share/sounds/modern-minimal-ui-sounds > /dev/null 2>&1
+cp -R ./src/sounds/* ~/.local/share/sounds/modern-minimal-ui-sounds > /dev/null 2>&1
+cd ./src/theme/
+./install.sh -c dark --tweaks blur round > /dev/null 2>&1
+cd ../icons/
+./install.sh > /dev/null 2>&1
+cd ..
+cd ..
+mv ~/.themes/Fluent-round-Dark ~/.themes/Fluent-Dark > /dev/null 2>&1
+cp -R ~/.themes/Fluent-Dark ~/.themes/Fluent > /dev/null 2>&1
+sudo cp -R ~/.themes/* /usr/share/themes/ > /dev/null 2>&1
+sudo cp -R ~/.local/share/icons/* /usr/share/icons/ > /dev/null 2>&1
+sudo cp -R ~/.local/share/sounds/* /usr/share/sounds/ > /dev/null 2>&1
+sleep 3
 echo 2>&1 
-cp ./prefs/gtk.css ~/.config/gtk-4.0/gtk.css
+#echo ───────────────────────────────────────────────── 2>&1 
+echo \ \ ▶ APPLYING SETTINGS...
+#echo ───────────────────────────────────────────────── 2>&1 
+sleep 2
+cp ./prefs/gtk.css ~/.config/gtk-4.0/gtk.css > /dev/null 2>&1
 dconf load /org/gnome/ < ./prefs/gnome.ini
 dconf load /org/gnome/shell/extensions/blur-my-shell/ < ./prefs/blur.ini
 dconf load /org/gnome/shell/extensions/dash-to-panel/ < ./prefs/dtp.ini
@@ -50,14 +60,14 @@ gsettings set org.gnome.nautilus.preferences show-hidden-files true
 gsettings set org.gnome.nautilus.preferences show-image-thumbnails 'always'
 gsettings set org.gnome.nautilus.icon-view default-zoom-level 'small-plus'
 echo 2>&1 
-echo ───────────────────────────────────────────────── 2>&1 
-echo SAVING SETTINGS...
-echo ───────────────────────────────────────────────── 2>&1 
-echo 2>&1 
+#echo ───────────────────────────────────────────────── 2>&1 
+echo \ \ ▶ SAVING SETTINGS...
+#echo ───────────────────────────────────────────────── 2>&1 
+
 echo export GTK_THEME=Fluent:dark >> ~/.bash_profile
 source ~/.bash_profile
 sleep 3
-
+echo 2>&1 
 echo ───────────────────────────────────────────────── 2>&1 
-echo DONE! PLEASE LOG OUT AND BACK IN! :]
+echo \ \ DONE!     PLEASE LOG OUT AND BACK IN!     :]
 echo ───────────────────────────────────────────────── 2>&1 
