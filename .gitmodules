@@ -1,0 +1,9 @@
+[submodule "src/icons"]
+	path = src/icons
+	url = https://github.com/vinceliuice/Fluent-icon-theme.git
+[submodule "src/theme"]
+	path = src/theme
+	url = https://github.com/vinceliuice/Fluent-gtk-theme.git
+[submodule "src/sounds"]
+	path = src/sounds
+	url = https://github.com/cadecomposer/modern-minimal-ui-sounds
