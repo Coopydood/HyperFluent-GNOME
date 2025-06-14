@@ -1,0 +1,47 @@
+/* COOPYDOOD CSS OVERRIDES */
+
+.sidebar-pane {
+	background-color: rgba(0,0,0,0.2);
+} 
+
+.nautilus-window.view .large {
+	background: none;
+	box-shadow: none;
+	filter: drop-shadow(0px 0px 2.5px rgba(0, 0, 0, 0.24));
+} 
+.nautilus-window.view .icon-ui-labels-box {
+	text-shadow: 0px 0px 5px rgba(0,0,0,0.6);
+}
+
+.icon {
+ 	padding-right: 0.8pc;
+}
+
+.sidebar-icon {
+    padding-right: 0.6pc;
+}
+
+
+bar-chart bar {
+	background-color: color-mix(in srgb, #3281EAFF 30%, transparent);
+}
+
+bar-chart bar:selected {
+	background-color: color-mix(in srgb, #3281EAFF 100%, transparent);
+}
+
+sheet {
+	background: rgba(43, 43, 43, 0.93);
+} 
+
+.prefixes {
+	padding-right: 0.8pc;
+}
+
+.editor {
+	background-color: rgba(0,0,0,0.3);
+}
+
+block {
+	border-radius: 10px;
+}
