@@ -10,7 +10,7 @@ git clone https://github.com/Coopydood/HyperFluent-GNOME-Theme && cd HyperFluent
 
 <br>
 
-<img align="left" width="441" src="https://github.com/user-attachments/assets/029b3c16-a1f7-49c6-b1e5-c48a54f4e1bf"><img align="left" src="https://github.com/Coopydood/ultimate-macOS-KVM/assets/39441479/8f69f9b9-cf23-4e8b-adf3-95862a23e2ba" height=980 width=1 />
+<img align="left" width="445" src="https://github.com/user-attachments/assets/029b3c16-a1f7-49c6-b1e5-c48a54f4e1bf"><img align="left" src="https://github.com/Coopydood/ultimate-macOS-KVM/assets/39441479/8f69f9b9-cf23-4e8b-adf3-95862a23e2ba" height=980 width=1 />
 
 ### Welcome to a modern GNOME look
 
