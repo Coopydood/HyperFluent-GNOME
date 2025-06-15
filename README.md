@@ -10,5 +10,6 @@ git clone https://github.com/Coopydood/HyperFluent-GNOME-Theme && cd HyperFluent
 
 <br>
 
-![image](https://github.com/user-attachments/assets/d6a44565-cf60-4040-8bb1-30f7e1ec1dce)
+
+![Screenshot From 2025-06-15 15-59-48](https://github.com/user-attachments/assets/0e0ac985-0959-4d31-8a9d-f714e05fceeb)
 
