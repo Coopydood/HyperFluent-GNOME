@@ -24,7 +24,7 @@ With blur and transparent elements dominating the design, your wallpaper **dynam
 
 ### Beyond the interface
 
-Not only do your windows and UI elements take on a beautiful new design - **your icons, sounds, fonts, and even cursors** - are completely transformed into a gorgeous blend of individually designed components coming together to form one unified theme.
+Not only do your windows and UI elements take on a beautiful new design - **your icons, sounds, fonts, and even cursors** - are completely transformed into one gorgeous unified theme.
 <br>
 
 ![Screenshot From 2025-06-15 15-59-48](https://github.com/user-attachments/assets/0e0ac985-0959-4d31-8a9d-f714e05fceeb)
