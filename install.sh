@@ -2,6 +2,7 @@
 
 ## Coopydood's Fluent theme installer
 
+clear
 echo ───────────────────────────────────────────────── 2>&1 
 echo \ \ HyperFluent GNOME Theme Installer \ \ \ \ \ \ v1.0 
 echo \ \ by Coopydood
