@@ -22,7 +22,7 @@ The all-new HyperFluent theme builds on the sleek design language of **Adwaita**
 
 ### Adapts to you
 
-With blur and transparent elements dominating the design, your wallpaper **dynamically** changes the whole look of your windows and UI elements. The result is a harmonious relationship between your **desktop and core user interfaces** that looks stunning.
+With blur and transparency at the core of the design, your wallpaper **dynamically** changes the whole look of your windows and UI elements. The result is a harmonious relationship between your **desktop and core user interfaces** that looks stunning.
 <br>
 
 ### Beyond the interface
