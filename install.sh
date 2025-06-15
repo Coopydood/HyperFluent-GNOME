@@ -13,6 +13,34 @@ echo \ \ ▶ DOWNLOADING ASSETS...
 
 git submodule init > /dev/null 2>&1
 git submodule update > /dev/null 2>&1
+
+wget -O./src/extensions/blur-my-shell.zip https://extensions.gnome.org/extension-data/blur-my-shellaunetx.v68.shell-extension.zip > /dev/null 2>&1
+
+
+wget -O./src/extensions/dash-to-panel.zip https://extensions.gnome.org/extension-data/dash-to-paneljderose9.github.com.v66.shell-extension.zip > /dev/null 2>&1
+
+
+wget -O./src/extensions/magic-lamp.zip https://extensions.gnome.org/extension-data/compiz-alike-magic-lamp-effecthermes83.github.com.v21.shell-extension.zip > /dev/null 2>&1
+
+
+wget -O./src/extensions/dash-to-dock.zip https://extensions.gnome.org/extension-data/dash-to-dockmicxgx.gmail.com.v100.shell-extension.zip > /dev/null 2>&1
+
+wget -O./src/extensions/user-themes.zip https://extensions.gnome.org/extension-data/user-themegnome-shell-extensions.gcampax.github.com.v62.shell-extension.zip > /dev/null 2>&1
+
+gnome-extensions install ./src/extensions/user-themes.zip > /dev/null 2>&1
+gnome-extensions install ./src/extensions/blur-my-shell.zip > /dev/null 2>&1
+gnome-extensions install ./src/extensions/magic-lamp.zip > /dev/null 2>&1
+gnome-extensions install ./src/extensions/dash-to-panel.zip > /dev/null 2>&1
+gnome-extensions install ./src/extensions/dash-to-dock.zip > /dev/null 2>&1
+
+sleep 1
+
+gnome-extensions enable blur-my-shell@aunetx > /dev/null 2>&1
+#gnome-extensions enable dash-to-panel@jderose9 > /dev/null 2>&1
+gnome-extensions enable compiz-alike-magic-lamp-effect@hermes83 > /dev/null 2>&1
+#gnome-extensions enable dash-to-dock@micxgx
+gnome-extensions enable user-theme@gnome-shell-extensions > /dev/null 2>&1
+
 sleep 1
 echo 2>&1 
 #echo ───────────────────────────────────────────────── 2>&1 
@@ -40,8 +68,9 @@ echo \ \ ▶ APPLYING SETTINGS...
 sleep 2
 cp ./prefs/gtk.css ~/.config/gtk-4.0/gtk.css > /dev/null 2>&1
 dconf load /org/gnome/ < ./prefs/gnome.ini
-dconf load /org/gnome/shell/extensions/blur-my-shell/ < ./prefs/blur.ini
-dconf load /org/gnome/shell/extensions/dash-to-panel/ < ./prefs/dtp.ini
+dconf load /org/gnome/ < ./src/extensions/enable.ini
+#dconf load /org/gnome/shell/extensions/blur-my-shell/ < ./prefs/blur.ini
+#dconf load /org/gnome/shell/extensions/dash-to-panel/ < ./prefs/dtp.ini
 gsettings set org.gnome.desktop.interface monospace-font-name 'Adwaita Mono 11'
 gsettings set org.gnome.desktop.interface font-name 'Adwaita Sans 10.8'
 gsettings set org.gnome.desktop.interface gtk-theme 'Fluent-Dark'
