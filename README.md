@@ -1,4 +1,7 @@
-# HyperFluent-GNOME
+<img src="https://github.com/user-attachments/assets/dbd652f4-26ea-4044-961e-fc9120fb8fee" alt="HyperFluent" width="400"/>
+
+***
+
 Modern, clean, and minimalist GNOME + GTK theme. Complete with beautiful frosted glass blur effects! 
 
 Readme coming soon™
