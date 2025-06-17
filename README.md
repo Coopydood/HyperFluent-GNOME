@@ -6,7 +6,7 @@ Modern, clean, and minimalist GNOME + GTK theme. Complete with beautiful frosted
 
 ***
 <br>
-<img align="left" width="445" src="https://github.com/user-attachments/assets/029b3c16-a1f7-49c6-b1e5-c48a54f4e1bf"><img align="left" src="https://github.com/Coopydood/ultimate-macOS-KVM/assets/39441479/8f69f9b9-cf23-4e8b-adf3-95862a23e2ba" height=580 width=1 />
+<img align="left" width="445" src="https://github.com/user-attachments/assets/029b3c16-a1f7-49c6-b1e5-c48a54f4e1bf"><img align="left" src="https://github.com/Coopydood/ultimate-macOS-KVM/assets/39441479/8f69f9b9-cf23-4e8b-adf3-95862a23e2ba" height=680 width=1 />
 
 ### Welcome to a modern GNOME look
 
@@ -22,10 +22,7 @@ With blur and transparency at the core of the design, your wallpaper **dynamical
 
 Not only do your windows and UI elements take on a beautiful new design - **your icons, sounds, fonts, and even cursors** - are completely transformed into one gorgeous unified theme.
 <br>
-<br>
-<br>
-<br>
-<br>
+<br><br><br>
 
 ***
 
